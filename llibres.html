@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Llibres - EditoLine</title>
+  <meta name="description" content="Catàleg complet de llibres d'EditoLine, organitzats per gènere: ficció i no-ficció. Descobreix les nostres veus emergents.">
+
+  <!-- Fonts de Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+
+  <!-- Menú hamburguesa -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu">
+
+  <!-- Icones de Xarxes Socials - Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- Fulles d'estils: base + específica de llibres -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <header>
+    <h1><a href="inici.html"><span>{Edito}</span>Line</a></h1>
+    <nav>
+      <span class="material-symbols-outlined">menu</span>
+      <ul>
+        <li><a href="#" aria-current="page">Llibres</a></li>
+        <li><a href="autors.html">Autors</a></li>
+        <li><a href="editorial.html">Editorial</a></li>
+        <li><a href="contacte.html">Contacte</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- =====================
+         HERO AMB CITA DESTACADA
+         ===================== -->
+    <section id="hero-llibres">
+      <figure>
+        <blockquote>
+          <p>El món està ple d'històries que esperen ser explicades.</p>
+        </blockquote>
+        <figcaption>— <cite>Neil Gaiman</cite></figcaption>
+      </figure>
+      <nav aria-label="Saltar a categories">
+        <a href="#ficcio">Ficció</a>
+        <a href="#no-ficcio">No-ficció</a>
+      </nav>
+    </section>
+
+    <!-- =====================
+         FICCIÓ
+         ===================== -->
+    <section id="ficcio">
+      <h2>Ficció</h2>
+      <p>Novel·les i relats que exploren la condició humana a través de la imaginació i la metàfora.</p>
+
+      <div class="llibres-grid">
+
+        <div class="llibre-card">
+          <figure>
+            <img src="assets/imgs/llibres/2.jpg" alt="Portada de 'La llum al final del túnel', novel·la de superació personal de Miquel Valls">
+          </figure>
+          <div class="llibre-info">
+            <span class="llibre-genere">Novel·la contemporània</span>
+            <h3>La llum al final del túnel</h3>
+            <p class="llibre-autor"><strong>Miquel Valls</strong></p>
+            <p class="llibre-descripcio">Una novel·la commovedora sobre la superació personal quan tot sembla perdut. El protagonista avança per un camí de dubtes i ferides, perseguint una llum encara llunyana, però possible. En aquest viatge, Miquel Valls explora la por, l'esperança i la resiliència, i ens recorda que, fins i tot en els moments més difícils, sempre pot existir una sortida.</p>
+          </div>
+        </div>
+
+        <div class="llibre-card">
+          <figure>
+            <img src="assets/imgs/llibres/4.jpg" alt="Portada de 'El viatge', novel·la de descoberta interior de Pol Ametller">
+          </figure>
+          <div class="llibre-info">
+            <span class="llibre-genere">Novel·la d'aventures</span>
+            <h3>El viatge</h3>
+            <p class="llibre-autor"><strong>Pol Ametller</strong></p>
+            <p class="llibre-descripcio">Una jove emprèn un camí simbòlic a través de paisatges canviants que reflecteixen els seus dubtes, pors i anhels. El trajecte esdevé un procés de descoberta interior on cada obstacle l'obliga a redefinir què vol i qui és. Entre la nostàlgia del passat i la incertesa del futur, aprèn que el veritable destí no és un lloc, sinó la pròpia transformació.</p>
+          </div>
+        </div>
+
+        <div class="llibre-card">
+          <figure>
+            <img src="assets/imgs/llibres/6.jpg" alt="Portada de 'Defensant la causa', novel·la de compromís social de Bernat Domènech">
+          </figure>
+          <div class="llibre-info">
+            <span class="llibre-genere">Novel·la històrica</span>
+            <h3>Defensant la causa</h3>
+            <p class="llibre-autor"><strong>Bernat Domènech</strong></p>
+            <p class="llibre-descripcio">Enmig d'un context social tens, el protagonista decideix implicar-se en una lluita que posa a prova les seves conviccions i els seus límits morals. La història retrata el cost personal de defensar allò en què es creu, així com els dilemes entre idealisme i realitat. Una reflexió intensa sobre el compromís, el sacrifici i la força de la solidaritat.</p>
+          </div>
+        </div>
+
+        <div class="llibre-card">
+          <figure>
+            <img src="assets/imgs/llibres/8.jpg" alt="Portada de 'La dama del bosc', novel·la de transformació personal de Julianna Canet">
+          </figure>
+          <div class="llibre-info">
+            <span class="llibre-genere">Novel·la fantàstica</span>
+            <h3>La dama del bosc</h3>
+            <p class="llibre-autor"><strong>Julianna Canet</strong></p>
+            <p class="llibre-descripcio">La novel·la narra la història d'una jove atrapada entre les expectatives del seu entorn i una força misteriosa que l'atrau cap al bosc. Aquest espai natural esdevé símbol de llibertat, desig i transformació personal. A mesura que s'endinsa en els seus secrets, la protagonista qüestiona les normes socials i descobreix una nova manera d'entendre's a si mateixa. Un relat intimista amb una atmosfera màgica i evocadora.</p>
+          </div>
+        </div>
+
+        <div class="llibre-card">
+          <figure>
+            <img src="assets/imgs/llibres/10.jpg" alt="Portada de 'Si la vida et dona llimones', novel·la humorística de Júlia Puig">
+          </figure>
+          <div class="llibre-info">
+            <span class="llibre-genere">Novel·la contemporània</span>
+            <h3>Si la vida et dona llimones</h3>
+            <p class="llibre-autor"><strong>Júlia Puig</strong></p>
+            <p class="llibre-descripcio">Una comèdia agredolça sobre com sobreviure als imprevistos de la vida quotidiana amb humor i resiliència. La protagonista transforma cada desastre en una oportunitat inesperada. A través d'aventures absurdes i personatges entranyables, l'autora ens regala una reflexió sobre l'acceptació i la lleugeresa davant l'adversitat.</p>
+          </div>
+        </div>
+
+        <div class="llibre-card">
+          <figure>
+            <img src="assets/imgs/llibres/11.jpg" alt="Portada de 'Guardià de la nit', thriller de misteri de Francesc Conrela">
+          </figure>
+          <div class="llibre-info">
+            <span class="llibre-genere">Novel·la negra</span>
+            <h3>Guardià de la nit</h3>
+            <p class="llibre-autor"><strong>Francesc Conrela</strong></p>
+            <p class="llibre-descripcio">Un <span lang="en">thriller</span> ple de girs imprevistos on un vigilant nocturn descobreix per accident una conspiració que posa en risc la seva vida. La tensió s'acumula en cada capítol fins a un desenllaç explosiu. L'autor dissecciona els límits entre la lleialtat i la supervivència en un entorn urbà fosc i implacable.</p>
+          </div>
+        </div>
+
+        <div class="llibre-card">
+          <figure>
+            <img src="assets/imgs/llibres/13.jpg" alt="Portada de 'L'home que evitava la seva ombra', novel·la psicològica d'Oriol Casamitjana">
+          </figure>
+          <div class="llibre-info">
+            <span class="llibre-genere">Novel·la psicològica</span>
+            <h3>L'home que evitava la seva ombra</h3>
+            <p class="llibre-autor"><strong>Oriol Casamitjana</strong></p>
+            <p class="llibre-descripcio">Un relat sobre un home que ha construït la seva vida mirant sempre endavant, refusant examinar el seu passat. Però l'ombra sempre torna. Una novel·la psicològica sobre la culpa, la memòria i el preu de l'autoengany. Casamitjana escriu amb una precisió clínica que atrapa el lector des de la primera pàgina.</p>
+          </div>
+        </div>
+
+        <div class="llibre-card">
+          <figure>
+            <img src="assets/imgs/llibres/14.jpg" alt="Portada de 'La petjada que deixes', novel·la sobre identitat de Laia Serra">
+          </figure>
+          <div class="llibre-info">
+            <span class="llibre-genere">Novel·la contemporània</span>
+            <h3>La petjada que deixes</h3>
+            <p class="llibre-autor"><strong>Laia Serra</strong></p>
+            <p class="llibre-descripcio">Una jove torna al poble on va créixer per liquidar l'herència de la seva àvia i es troba amb un passat que creia oblidat. La recerca de respostes la porta a replantejar-se la seva pròpia identitat. Serra construeix una narrativa càlida i emotiva sobre les arrels, el dol i la memòria familiar.</p>
+          </div>
+        </div>
+
+        <div class="llibre-card">
+          <figure>
+            <img src="assets/imgs/llibres/15.jpg" alt="Portada de 'L'última fulla', novel·la intimista de Laura Torrents">
+          </figure>
+          <div class="llibre-info">
+            <span class="llibre-genere">Relat</span>
+            <h3>L'última fulla</h3>
+            <p class="llibre-autor"><strong>Laura Torrents</strong></p>
+            <p class="llibre-descripcio">Un dietari fictici escrit des del llit d'un hospital on una escriptora reivindica la bellesa de les coses petites davant la malaltia. Cada entrada és una cançó al present. Torrents escriu amb una delicadesa extraordinària, convertint la fragilitat en un acte de resistència literària. Un llibre que commou sense caure en el sentimentalisme.</p>
+          </div>
+        </div>
+
+        <div class="llibre-card">
+          <figure>
+            <img src="assets/imgs/llibres/17.jpg" alt="Portada de 'El camí és ara', novel·la existencial de Roc Costa">
+          </figure>
+          <div class="llibre-info">
+            <span class="llibre-genere">Novel·la d'aventures</span>
+            <h3>El camí és ara</h3>
+            <p class="llibre-autor"><strong>Roc Costa</strong></p>
+            <p class="llibre-descripcio">Un noi de vint anys abandona la seva vida planificada per emprendre una ruta a peu de Barcelona a Santiago. El que comença com una fugida es converteix en un retrobament amb ell mateix. Costa narra amb precisió lírica els paisatges externs i interns del camí, qüestionant el significat de l'èxit i la felicitat en la joventut contemporània.</p>
+          </div>
+        </div>
+
+        <div class="llibre-card">
+          <figure>
+            <img src="assets/imgs/llibres/19.jpg" alt="Portada de 'Company de pis', comèdia domèstica de Laura Torrents">
+          </figure>
+          <div class="llibre-info">
+            <span class="llibre-genere">Novel·la contemporània</span>
+            <h3>Company de pis</h3>
+            <p class="llibre-autor"><strong>Laura Torrents</strong></p>
+            <p class="llibre-descripcio">Quan una biòloga ordenada i un músic caòtic es veuen obligats a compartir pis a Barcelona, xoquen dos mons antagònics. El que semblava un malson es converteix en una comèdia sobre els límits, la tolerància i l'amistat inesperada. Torrents brilla amb diàlegs afilats i situacions absurdes que fan reflexionar sobre la convivència i les diferències.</p>
+          </div>
+        </div>
+
+        <div class="llibre-card">
+          <figure>
+            <img src="assets/imgs/llibres/20.jpg" alt="Portada de 'Enmig de la boira', thriller de suspens de Pol Ametller">
+          </figure>
+          <div class="llibre-info">
+            <span class="llibre-genere">Novel·la negra</span>
+            <h3>Enmig de la boira</h3>
+            <p class="llibre-autor"><strong>Pol Ametller</strong></p>
+            <p class="llibre-descripcio">Una detectora privada rep l'encàrrec de trobar una persona desapareguda en un poble de muntanya envoltat de boira i silenci. A mesura que avança, s'adona que ningú diu tota la veritat. Ametller construeix una atmosfera opressiva i hipnòtica, on la tensió s'acumula subtilment fins a un final que ho canvia tot.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =====================
+         SEPARADOR VISUAL
+         ===================== -->
+    <section id="separador-generes">
+      <div class="separador-content">
+        <div class="separador-linia"></div>
+        <div class="separador-icon">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="separador-linia"></div>
+      </div>
+      <p class="separador-text">Descobreix els nostres assaigs i obres de divulgació</p>
+    </section>
+
+    <!-- =====================
+         NO FICCIÓ
+         ===================== -->
+    <section id="no-ficcio">
+      <h2>No-ficció</h2>
+      <p>Assaigs, guies i obres de divulgació que amplien la mirada i transformen la manera de pensar i actuar.</p>
+
+      <div class="llibres-grid">
+
+        <div class="llibre-card">
+          <figure>
+            <img src="assets/imgs/llibres/1.jpg" alt="Portada de 'Trencant motlles', guia d'autoconeixement de Georgina Cercós">
+          </figure>
+          <div class="llibre-info">
+            <span class="llibre-genere">Assaig filosòfic</span>
+            <h3>Trencant motlles</h3>
+            <p class="llibre-autor"><strong>Georgina Cercós</strong></p>
+            <p class="llibre-descripcio">Un llibre d'autoconeixement que convida a qüestionar les creences limitants que ens mantenen atrapats. Georgina Cercós ofereix eines pràctiques i reflexions potents per sortir de la zona de confort i construir una nova mentalitat. Una guia inspiradora per atrevir-se a canviar, créixer i redefinir els propis límits.</p>
+          </div>
+        </div>
+
+        <div class="llibre-card">
+          <figure>
+            <img src="assets/imgs/llibres/3.jpg" alt="Portada de 'Creativitat a l'era digital', assaig sobre innovació d'Olivia Rabentós">
+          </figure>
+          <div class="llibre-info">
+            <span class="llibre-genere">Assaig científic</span>
+            <h3>Creativitat a l'era digital</h3>
+            <p class="llibre-autor"><strong>Olivia Rabentós</strong></p>
+            <p class="llibre-descripcio">Un assaig fresc i actual sobre com la tecnologia transforma la manera de crear i innovar. Olivia Rabentós analitza el paper de les eines digitals, la intel·ligència artificial i les noves plataformes en el procés creatiu. Una lectura imprescindible per a professionals i estudiants que volen destacar en un món cada cop més connectat.</p>
+          </div>
+        </div>
+
+        <div class="llibre-card">
+          <figure>
+            <img src="assets/imgs/llibres/5.jpg" alt="Portada de 'Com ens comuniquem', assaig sobre comunicació de Marta Rovira">
+          </figure>
+          <div class="llibre-info">
+            <span class="llibre-genere">Assaig sociològic</span>
+            <h3>Com ens comuniquem</h3>
+            <p class="llibre-autor"><strong>Marta Rovira</strong></p>
+            <p class="llibre-descripcio">Aquest llibre explora les dinàmiques invisibles que modelen les nostres converses quotidianes, des del llenguatge verbal fins als silencis carregats de significat. A través d'històries entrellaçades, mostra com els malentesos, els prejudicis i les emocions condicionen les relacions personals i professionals. És una invitació a escoltar millor, parlar amb més consciència i construir vincles més honestos.</p>
+          </div>
+        </div>
+
+        <div class="llibre-card">
+          <figure>
+            <img src="assets/imgs/llibres/9.jpg" alt="Portada de 'Disseny i pensament visual', assaig divulgatiu de Pau Coromines">
+          </figure>
+          <div class="llibre-info">
+            <span class="llibre-genere">Assaig expositiu</span>
+            <h3>Disseny i pensament visual</h3>
+            <p class="llibre-autor"><strong>Pau Coromines</strong></p>
+            <p class="llibre-descripcio">Un assaig divulgatiu sobre la importància del pensament visual en la comunicació i la creativitat. L'autor explica com les imatges, esquemes i gràfics poden ajudar a comprendre idees complexes. Ofereix eines pràctiques per aplicar el disseny visual en l'àmbit professional i educatiu. És una obra orientada a millorar la capacitat d'innovar i comunicar.</p>
+          </div>
+        </div>
+
+        <div class="llibre-card">
+          <figure>
+            <img src="assets/imgs/llibres/12.jpg" alt="Portada de 'Equilibri', guia de benestar i mindfulness de Olivia Rabentós">
+          </figure>
+          <div class="llibre-info">
+            <span class="llibre-genere">Assaig filosòfic</span>
+            <h3>Equilibri</h3>
+            <p class="llibre-autor"><strong>Olivia Rabentós</strong></p>
+            <p class="llibre-descripcio">Una guia pràctica per recuperar l'equilibri en un món accelerat. Miralles combina neurociència, filosofia oriental i exercicis concrets per aprendre a gestionar l'estrès, millorar el son i reconnectar amb allò que és essencial. Un manual de vida moderna que acompanya el lector pas a pas cap a una existència més serena i significativa.</p>
+          </div>
+        </div>
+
+        <div class="llibre-card">
+          <figure>
+            <img src="assets/imgs/llibres/16.jpg" alt="Portada de 'Màquina de pensar', assaig sobre intel·ligència artificial de Marc Vila">
+          </figure>
+          <div class="llibre-info">
+            <span class="llibre-genere">Assaig científic</span>
+            <h3>Màquina de pensar</h3>
+            <p class="llibre-autor"><strong>Marc Vila</strong></p>
+            <p class="llibre-descripcio">Una exploració rigorosa i accessible sobre com la intel·ligència artificial pensa, aprèn i decideix. Marc Vila desmunta mites i explica amb claredat els fonaments dels algoritmes que ja modelen la nostra vida quotidiana. Un llibre imprescindible per entendre el present i anticipar el futur tecnològic amb criteri propi.</p>
+          </div>
+        </div>
+
+        <div class="llibre-card">
+          <figure>
+            <img src="assets/imgs/llibres/18.jpg" alt="Portada de 'Cacao mental', assaig sobre salut mental d'Anna Pujol">
+          </figure>
+          <div class="llibre-info">
+            <span class="llibre-genere">Assaig divulgatiu</span>
+            <h3>Cacao mental</h3>
+            <p class="llibre-autor"><strong>Anna Pujol</strong></p>
+            <p class="llibre-descripcio">Una psicòloga clínica explica amb humor i rigor per què el nostre cervell ens enganya, ens saboterja i, tot i així, ens permet sobreviure. Des dels biaixos cognitius fins als mecanismes de defensa, Pujol fa accessible la psicologia per a tothom. Un llibre que fa riure i pensar a parts iguals, i que acaba sent un manual de supervivència emocional.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+
+    <div class="newsletter-section">
+      <h3>{Edito}<span>Line</span></h3>
+      <p>Subscriu-te al nostre newsletter i descobreix les últimes novetats literàries.</p>
+      <form>
+        <input type="email" placeholder="El teu correu electrònic" aria-label="Correu electrònic per al butlletí" required>
+        <button type="submit">Subscriu-me</button>
+      </form>
+      <small>&copy; <span>Íngrid Palomino</span>, <cite>Curs de Confecció de Pàgines Web</cite>, <abbr title="Centre d'Innovació i Formació Ocupacional">CIFO</abbr> La Violeta, 2026.</small>
+    </div>
+
+    <div>
+      <h3>Editorial</h3>
+      <ul>
+        <li><a href="#">Sobre nosaltres</a></li>
+        <li><a href="#">Catàleg</a></li>
+        <li><a href="autors.html">Autors</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Podcast</a></li>
+        <li><a href="contacte.html">Contacte</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Legal</h3>
+      <ul>
+        <li><a href="#">Avís legal</a></li>
+        <li><a href="#">Política de privacitat</a></li>
+        <li><a href="#">Política de cookies</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Segueix-nos</h3>
+      <div class="social-links">
+        <a href="#" aria-label="Instagram d'EditoLine"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Facebook d'EditoLine"><i class="fab fa-facebook"></i></a>
+        <a href="#" aria-label="YouTube d'EditoLine"><i class="fab fa-youtube"></i></a>
+        <a href="#" aria-label="Twitter d'EditoLine"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+</html>

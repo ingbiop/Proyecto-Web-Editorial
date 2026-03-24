@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inici - EditoLine</title>
+    <meta name="description" content="EditoLine, editorial independent barcelonina dedicada a descobrir i impulsar escriptors novells. Explora el nostre catàleg de literatura contemporània.">
+
+    <!--Fonts de Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        
+    <!--Favicon-->
+    <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+
+    <!--Menú hamburguesa-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu">
+
+    <!--Icones de Xarxes Socials - Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!--Fulla d'estils-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="inici.html"><span>{Edito}</span>Line</a></h1>
+        <nav>
+            <span class="material-symbols-outlined">menu</span>
+            <ul>
+                <li><a href="llibres.html">Llibres</a></li>
+                <li><a href="autors.html">Autors</a></li>
+                <li><a href="editorial.html">Editorial</a></li>
+                <li><a href="contacte.html">Contacte</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <figure><img src="assets/imgs/hero-image.jpg" alt="Foto portada Editoline noia llibre vermell"></figure>
+            <div>
+                <h2>Donem veu als nous talents</h2>
+                <p>Editorial independent barcelonina dedicada a impulsar escriptors joves i emergents, amb una aposta clara per la literatura contemporània i noves formes de creació literària.</p>
+                <a href="llibres.html" class="btn">Explora els nostres llibres</a>
+                <a href="contacte.html" class="btn">Envia'ns el teu manuscrit</a>
+            </div>
+        </section>
+        <section id="banner">            
+            <div>
+                <figure>
+                    <img src="assets/imgs/cor.png" alt="Cor de Sant Valentí">
+                </figure>
+                <div>
+                    <p>No esperis a Sant Jordi per regalar un llibre! Aquest <span>Sant Valentí</span>, enamora i enamora't amb un <strong>5% de descompte i enviament gratuït</strong>.</p>
+                    <a href="llibres.html?especial=st-valenti" class="btn">Veure llibres</a>
+                </div> 
+            </div>
+            <div>
+                <video muted autoplay loop playsinline>
+                    <source src="assets/videos/Parella.mp4" type="video/mp4">
+                    Aquest vídeo no és compatible amb el teu navegador.
+                </video>
+            </div>
+        </section>
+        <section id="llibres">
+            <h2>Llibres destacats</h2>
+            <div>
+                <div class="card">
+                    <figure><img src="assets/imgs/llibres/1.jpg" alt="Portada llibre 1"></figure>
+                    <a href="llibre1.html" class="btn">Veure llibre</a>
+                </div>
+                <div class="card">
+                    <figure><img src="assets/imgs/llibres/2.jpg" alt="Portada llibre 2"></figure>
+                    <a href="llibre2.html" class="btn">Veure llibre</a>
+                </div>
+                <div class="card">
+                    <figure><img src="assets/imgs/llibres/3.jpg" alt="Portada llibre 3"></figure>
+                    <a href="llibre3.html" class="btn">Veure llibre</a>
+                </div>
+                <div class="card">
+                    <figure><img src="assets/imgs/llibres/4.jpg" alt="Portada llibre 4"></figure>
+                    <a href="llibre4.html" class="btn">Veure llibre</a>
+                </div>
+                <div class="card">
+                    <figure><img src="assets/imgs/llibres/5.jpg" alt="Portada llibre 5"></figure>
+                    <a href="llibre5.html" class="btn">Veure llibre</a>
+                </div>
+                <div class="card">
+                    <figure><img src="assets/imgs/llibres/6.jpg" alt="Portada llibre 6"></figure>
+                    <a href="llibre6.html" class="btn">Veure llibre</a>
+                </div>
+            </div>
+        </section>
+        <section id="generes">
+            <h2>Gèneres literaris</h2>
+            <div>
+                <h3>Ficció</h3>
+                <a href="llibres.html#ficcio" class="btn">Veure llibres</a>
+            </div>
+            <div>
+                <h3>No-ficció</h3>
+                <a href="llibres.html#no-ficcio" class="btn">Veure llibres</a>
+            </div>
+        </section>
+
+        <section id="autors">
+            <h2>Autors</h2>
+            <div class="carousel">
+                <!-- PRIMER DIV (original) -->
+                <div>
+                    <figure>
+                        <img src="assets/imgs/autors/Marc-Vila.png" alt="Marc Vila">
+                        <figcaption>Marc Vila</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Laura-Torrents.png" alt="Laura Torrents">
+                        <figcaption>Laura Torrents</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Pol-Ametller.png" alt="Pol Ametller">
+                        <figcaption>Pol Ametller</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Laia-Serra.png" alt="Laia Serra">
+                        <figcaption>Laia Serra</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Oriol-Casamitjana.png" alt="Oriol Casamitjana">
+                        <figcaption>Oriol Casamitjana</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Anna-Pujol.png" alt="Anna Pujol">
+                        <figcaption>Anna Pujol</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Georgina-Cercós.png" alt="Georgina Cercós">
+                        <figcaption>Georgina Cercós</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Roc-Costa.png" alt="Roc Costa">
+                        <figcaption>Roc Costa</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Marta-Rovira.png" alt="Marta Rovira">
+                        <figcaption>Marta Rovira</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Francesc-Cornellà.png" alt="Francesc Cornella">
+                        <figcaption>Francesc Cornellà</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Olivia-Rabentós.png" alt="Olivia Rabentós">
+                        <figcaption>Olivia Rabentós</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Miquel-Valls.png" alt="Miquel Valls">
+                        <figcaption>Miquel Valls</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Bernat-Domènech.png" alt="Bernat Domènech">
+                        <figcaption>Bernat Domènech</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Juliana-Cannet.png" alt="Juliana Cannet">
+                        <figcaption>Juliana Cannet</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Julia-Puig.png" alt="Júlia Puig">
+                        <figcaption>Júlia Puig</figcaption>
+                    </figure>
+                </div>
+
+                <!-- SEGON DIV (còpia idèntica per al scroll infinit) -->
+                <div aria-hidden>
+                    <figure>
+                        <img src="assets/imgs/autors/Marc-Vila.png" alt="Fotografia de Marc Vila">
+                        <figcaption>Marc Vila</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Laura-Torrents.png" alt="Fotografia de Laura Torrents">
+                        <figcaption>Laura Torrents</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Pol-Ametller.png" alt="Fotografia de Pol Ametller">
+                        <figcaption>Pol Ametller</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Laia-Serra.png" alt="Fotografia de Laia Serra">
+                        <figcaption>Laia Serra</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Oriol-Casamitjana.png" alt="Fotografia d'Oriol Casamitjana">
+                        <figcaption>Oriol Casamitjana</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Anna-Pujol.png" alt="Fotografia d'Anna Pujol">
+                        <figcaption>Anna Pujol</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Georgina-Cercós.png" alt="Fotografia de Georgina Cercós">
+                        <figcaption>Georgina Cercós</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Roc-Costa.png" alt="Fotografia de Roc Costa">
+                        <figcaption>Roc Costa</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Marta-Rovira.png" alt="Fotografia de Marta Rovira">
+                        <figcaption>Marta Rovira</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Francesc-Cornellà.png" alt="Fotografia de Francesc Cornellà">
+                        <figcaption>Francesc Cornellà</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Olivia-Rabentós.png" alt="Fotografia d'Olivia Rabentós">
+                        <figcaption>Olivia Rabentós</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Miquel-Valls.png" alt="Fotografia de Miquel Valls">
+                        <figcaption>Miquel Valls</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Bernat-Domènech.png" alt="Fotografia de Bernat Domènech">
+                        <figcaption>Bernat Domènech</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Juliana-Cannet.png" alt="Fotografia de Juliana Cannet">
+                        <figcaption>Juliana Cannet</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/imgs/autors/Julia-Puig.png" alt="Fotografia de Júlia Puig">
+                        <figcaption>Júlia Puig</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="esdeveniments">
+             <h2>Esdeveniments</h2>
+
+            <div class="event">
+                <div class="data">
+                    <p>DIM</p>
+                    <p>12</p>
+                    <p>FEB</p>
+                </div>
+                <figure>
+                    <img src="assets/imgs/collage-ChatGPT.png" alt="Presentació del llibre de poesia">
+                </figure>
+                <div class="text">
+                    <div>
+                        <img src="assets/imgs/autors/Laia-Serra.png" alt="Laia Serra">
+                        <p>Laia Serra</p>
+                    </div>
+                    <h3>Presentació de «Veus Submergides»</h3>
+                    <p>Presentació del nou poemari de Laia Serra, amb lectura de textos i col·loqui amb l'autora. Acte obert al públic a la sala polivalent d'&#123;Edito&#125;Line.</p>
+                </div>
+            </div>  
+
+            <div class="event">
+                <div class="data">
+                    <p>DJ</p>
+                    <p>19</p>
+                    <p>FEB</p>
+                </div>
+                <figure>
+                    <img src="assets/imgs/surprised-man-book.jpg" alt="Club de lectura">
+                </figure>
+                <div class="text">
+                    <div>
+                        <img src="assets/imgs/autors/Marc-Vila.png" alt="Marc Vila">
+                        <p>Marc Vila</p>
+                    </div>
+                    <h3>Club de lectura: Narrativa contemporània</h3>
+                    <p>Sessió moderada pel crític literari Marc Vila al voltant de dues obres recents del catàleg d'&#123;Edito&#125;Line. Activitat amb inscripció prèvia.</p>
+                </div>
+            </div>
+
+
+            <div class="event">
+                <div class="data">
+                    <p>DS</p>
+                    <p>22</p>
+                    <p>FEB</p>
+                </div>
+                <figure>
+                    <img src="assets/imgs/books-imagination-still-life.jpg" alt="Taller d'escriptura creativa">
+                </figure>
+                <div class="text">
+                    <div>
+                        <img src="assets/imgs/autors/Anna-Pujol.png" alt="Anna Pujol">
+                        <p>Anna Pujol</p>
+                    </div>
+                    <h3>Taller d'escriptura creativa</h3>
+                    <p>Taller pràctic de quatre hores centrat en tècniques narratives i desenvolupament de personatges, impartit per l'escriptora Anna Pujol en un espai llogat al centre de Barcelona.</p>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="data">
+                    <p>DC</p>
+                    <p>26</p>
+                    <p>FEB</p>
+                </div>
+                <figure>
+                    <img src="assets/imgs/Gemini_ia.png" alt="Taula rodona editorial">
+                </figure>
+                <div class="text">
+                    <div>
+                        <img src="assets/imgs/ingrid.png" alt="Autors EditoLine">
+                        <p>Íngrid Palomino</p>
+                    </div>
+                    <h3>Taula rodona: Publicar avui</h3>
+                    <p>Debat amb autors i editors sobre els reptes de l'edició independent actual. Activitat gratuïta amb aforament limitat a un espai cultural col·laborador.</p>
+                </div>
+            </div>
+        </section>
+       <section id="podcast">
+            <h2>Podcast</h2>
+            <p>Descobreix l'últim episodi del nostre podcast:</p>
+            <div id="podcast-layout">
+                <div id="reproductor">
+                    <figure>
+                        <img src="assets/imgs/caratula-podcast.png" alt="Portada del podcast Editoline">
+                    </figure>
+                    <div>
+                        <p><span>Episodi 12:</span> Ressenya del llibre top vendes <cite>Trenca els teus motlles</cite>, de Georgina Cercós.</p>
+                        <audio controls>
+                            <source src="assets/audio/podcast.mp3" type="audio/mp3">
+                            El teu navegador no suporta l'àudio.   
+                        </audio>
+                    </div>
+                </div>
+                <div>
+                    <video autoplay muted loop>
+                        <source src="assets/videos/girl-reading.mp4" type="video/mp4">
+                        Aquest vídeo no és compatible amb el teu navegador. 
+                    </video>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+        <div class="newsletter-section">
+            <h3>{Edito}<span>Line</span></h3>
+            <p>Subscriu-te al nostre newsletter i descobreix les últimes novetats literàries.</p>
+            <form>
+                <input type="email" placeholder="El teu correu electrònic" required>
+                <button type="submit">Subscriu-me</button>
+            </form>
+            <p><small>&copy; <span>Íngrid Palomino</span>, <cite>Curs de Confecció de Pàgines Web</cite>, <abbr title="
+Centre d'Innovació i Formació Ocupacional">CIFO</abbr> La Violeta, 2026.</small></p>
+        </div>
+
+        <div>
+            <h3>Editorial</h3>
+            <ul>
+                <li><a href="#">Sobre nosaltres</a></li>
+                <li><a href="#">Catàleg</a></li>
+                <li><a href="#">Autors</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Podcast</a></li>
+                <li><a href="#">Contacte</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Legal</h3>
+            <ul>
+                <li><a href="#">Avís legal</a></li>
+                <li><a href="#">Política de privacitat</a></li>
+                <li><a href="#">Política de cookies</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Segueix-nos</h3>
+            <div class="social-links">
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+</html>
